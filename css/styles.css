@@ -80,7 +80,7 @@ menu-link:hover {
   color: #404bbf;
 }
 menu-link:focus {
-  color: color: #404bbf;
+  color: #404bbf;
 }
 .contact-link {
   color: var(--slate, #434455);
