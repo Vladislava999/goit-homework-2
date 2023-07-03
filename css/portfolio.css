@@ -105,9 +105,9 @@ span.ingredient {
 span.ingredient-header {
   color: var(--navyblue, #2e2f42);
 }
-}
+
 /*==========Button========*/
-button {
+.button {
   color: var(--iris, #4d5ae5);
   background: var(--background-bottom, #f4f4fd);
   border-radius: 4px;
@@ -129,6 +129,7 @@ button:focus {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 120px;
+  cursor: pointer;
 }
 
 .button-text {
