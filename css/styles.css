@@ -89,7 +89,12 @@ span.ingredient {
   letter-spacing: 0.32px;
   font-style: normal;
 }
-
+.contact-link:hover {
+  color: #404bbf;
+}
+.contact-link:focus {
+  color: #404bbf;
+}
 .logotipe-header {
   color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;

@@ -74,6 +74,12 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.menu-link:hover {
+  color: #404bbf;
+}
+.menu-link:focus {
+  color: #404bbf;
+}
 .contact-link {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -81,7 +87,12 @@ span.ingredient {
   letter-spacing: 0.32px;
   font-style: normal;
 }
-
+.contact-link:hover {
+  color: #404bbf;
+}
+.contact-link:focus {
+  color: #404bbf;
+}
 .logotipe-header {
   color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
@@ -93,6 +104,7 @@ span.ingredient {
 }
 span.ingredient-header {
   color: var(--navyblue, #2e2f42);
+}
 }
 /*==========Button========*/
 button {
