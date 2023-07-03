@@ -76,7 +76,7 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-menu-link:hover {
+menu-item:hover {
   color: #404bbf;
 }
 menu-link:focus {
