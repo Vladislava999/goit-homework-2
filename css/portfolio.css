@@ -143,6 +143,9 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.64px;
   border: none;
+  color: var(--background-bottom, #4d5ae5);
+  background-color: var(--background-team, #f4f4fd);
+  cursor: pointer;
 }
 
 .button-text {
