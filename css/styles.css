@@ -76,10 +76,10 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-menu-list:hover {
+menu-link:hover {
   color: #404bbf;
 }
-menu-list:focus {
+menu-link:focus {
   color: color: #404bbf;
 }
 .contact-link {
