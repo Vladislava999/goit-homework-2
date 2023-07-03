@@ -115,13 +115,13 @@ button {
   border: solid #e7e9fc;
   cursor: pointer;
 }
-.button:hover {
+button:hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
   border: 1px;
   border: solid transparent;
 }
-.button:focus {
+button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
