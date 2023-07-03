@@ -111,13 +111,12 @@ span.ingredient-header {
 button {
   color: #ffffff;
   background-color: #4d5ae5;
-  margin-top: 48px;
   cursor: pointer;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04e;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 button:hover {
@@ -153,7 +152,7 @@ button:focus {
 /*============ Team ============*/
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .main-title-team {
   color: var(--main-title, #2e2f42);
@@ -164,7 +163,9 @@ button:focus {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-
+.list-team {
+  background-color: #ffffff;
+}
 /*=========Footer========*/
 .logotipe {
   color: var(--logotipe-blu, #4d5ae5);
