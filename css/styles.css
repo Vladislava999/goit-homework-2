@@ -192,6 +192,10 @@ span.ingredient {
 .button {
   color: var(--iris, #4d5ae5);
   background: var(--background-bottom, #f4f4fd);
+  border-radius: 4px;
+  border: 1px;
+  border: solid #e7e9fc;
+  cursor: pointer;
 }
 button:hover {
   color: var(--bottom-hover, #fff);
