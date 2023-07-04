@@ -200,7 +200,9 @@ span.ingredient {
 button:hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
-
+  border: 1px;
+  border: solid transparent;
+}
 button:focus {
   color: #ffffff;
   background-color: #404bbf;
@@ -209,7 +211,7 @@ button:focus {
   background: #fff;
 }
 
-.button-text { 
+.button-text {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
