@@ -202,3 +202,71 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*==========Button========*/
+.button {
+  color: var(--iris, #4d5ae5);
+  background: var(--background-bottom, #f4f4fd);
+  border-radius: 4px;
+  border: 1px;
+  border: solid #e7e9fc;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--bottom-hover, #fff);
+  background: var(--background-bottom-hover, #404bbf);
+  border: 1px;
+  border: solid transparent;
+}
+button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.buttons {
+  background: #fff;
+  padding-top: 96px;
+  padding-bottom: 120px;
+  cursor: pointer;
+}
+
+.button-text {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+  color: var(--background-bottom, #4d5ae5);
+  background-color: var(--background-team, #f4f4fd);
+  cursor: pointer;
+}
+
+.button-text {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+}
+
+/*========Image========*/
+
+.desc {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.main-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
